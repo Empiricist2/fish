@@ -1,0 +1,35 @@
+ 
+        li {
+            list-style: none;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        li button {
+            background-color: rgb(249, 230, 234);
+        }
+
+        li button.edit {
+            background-color: #0adee9b0;
+            margin-right: 5px;
+        }
+        
+
+
+.background{
+ margin-bottom:-10%;
+}
+
+.text-bg-light{
+    margin-left: 10%;
+}
+
+.opp{
+    display: flex;
+}
+th,td{
+    padding: 30px;
+}
+

@@ -1,0 +1,343 @@
+  /* @media screen and (max-width:414px) {
+            .on {
+                overflow-x: hidden;
+            }
+
+            .na {
+                margin-left: -10%;
+            }
+
+            .mynumber {
+                width: 80%;
+            }
+
+            .c {
+
+                margin-left: 1%;
+                width: 97%;
+                padding-top: 300px;
+
+            }
+
+            .ca {
+                margin-top: 20%;
+                margin-left: 10%;
+            }
+
+            .cal {
+                margin-top: 10%;
+                margin-left: -5%;
+                width: 92%;
+            }
+
+            .dev {
+                margin-left: -9%;
+            }
+
+            .number {
+                margin-left: 12%;
+            }
+
+            .var {
+                margin-top: 180px;
+            }
+
+        }
+
+        @media screen and (min-width:768px) {
+            .pro2 {
+                display: none;
+            }
+
+            .var {
+                height: 535px;
+            }
+
+            .nah {
+                margin-left: -1%;
+            }
+
+            .highestscore {
+                margin-left: 8%;
+            }
+
+            .number {
+                margin-left: -10%;
+            }
+
+            .again {
+                margin-left: 30%;
+            }
+
+            .check {
+                margin-left: 30%;
+            }
+
+            .mynumber {
+                margin-left: 15%;
+                width: 400px;
+            }
+
+            .jav {
+                height: 400px;
+                font-size: 22px;
+            }
+
+            .what {
+                height: 510px;
+            }
+
+            .c {
+
+                margin-left: 15%;
+                width: 97%;
+
+            }
+
+            .ca {
+                margin-top: 10%;
+                margin-left: 5%;
+            }
+
+            .cal {
+                margin-top: 10%;
+                margin-left: -5%;
+                width: 92%;
+            }
+
+            .dev {
+                margin-left: -9%;
+            }
+        }
+
+        @media screen and (max-width:768px) {
+            .pro {
+                display: none;
+            }
+
+            .on {
+                overflow-x: hidden;
+            }
+
+
+            .jav {
+                font-size: 20px;
+            }
+
+            .nah {
+                margin-left: 5%;
+            }
+
+            .highestscore {
+                margin-left: -6%;
+            }
+
+            .number {
+                margin-left: -10%;
+            }
+
+            .again {
+                margin-left: 25%;
+            }
+
+            .check {
+                margin-left: 25%;
+            }
+
+            .with {
+                margin-top: 2%;
+                margin-left: 3%;
+            }
+
+            .icon {
+
+                margin-top: 3%;
+            }
+
+            .num {
+                word-spacing: 10px;
+                margin-top: 2%;
+                margin-left: -5%;
+            }
+
+            .leg {
+                margin-left: 26%;
+                padding-top: 5%;
+                font-size: 15px;
+            }
+
+            .inst {
+                margin-left: 1%;
+            }
+
+            .rig {
+                margin-left: -4%;
+            }
+
+            .cre {
+                margin-top: -7%;
+                margin-left: -7%;
+            }
+
+            .dev {
+                margin-left: -16%;
+                margin-top: -1%;
+            }
+
+            .social {
+                margin-left: -44%;
+                margin-top: 2%;
+            }
+
+            .tweet {
+                margin-top: -5%;
+
+            }
+
+            .col-md-4 {
+                margin-bottom: 15%;
+
+            }
+
+            .fac {
+                font-size: 12px;
+                margin-left: -7%;
+                padding-top: 20%;
+            }
+
+            .act {
+                width: 160%;
+            }
+
+            .lab {
+                color: rgb(65, 65, 189);
+            }
+
+            .lab:hover {
+                color: green;
+            }
+
+            .de {
+                margin-top: 10%;
+            }
+
+            .ni {
+                margin-top: 10%;
+            }
+
+            .c {
+                margin-top: 130%;
+                margin-left: 29%;
+                width: 85%;
+            }
+
+            .ca {
+                margin-top: 10%;
+                margin-left: 8%;
+                width: 85%;
+
+            }
+
+            .cal {
+                margin-top: 10%;
+                margin-left: -14%;
+                width: 85%;
+            }
+
+            .gu {
+                margin-top: 10%;
+            }
+
+            .age {
+                margin-top: 10%;
+            }
+
+            .dii {
+                height: 910px;
+            }
+
+            .var {
+                height: 750px;
+                width: 100%;
+            }
+
+            .mynumber {
+                margin-left: 7%;
+            }
+        } */
+
+        .lab {
+            color: rgb(65, 65, 189);
+        }
+
+        .lab:hover {
+            color: green;
+        }
+
+        .background {
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+
+        }
+
+        .background {
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+
+        }
+
+        .top {
+            filter: brightness(100%);
+        }
+
+ 
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #BBC6C8;
+        }
+
+        li {
+            list-style: none;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        li button {
+            background-color: rgb(249, 230, 234);
+        }
+
+        li button.edit {
+            background-color: #0adee9b0;
+            margin-right: 5px;
+        }
+        
+     
