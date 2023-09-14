@@ -1051,7 +1051,7 @@
                 }
             }
             //Guess my number game//
-            let highestscore = document.querySelector('#high').innerHTML;
+
             const btn = document.querySelector('.check');
             btnagain = document.querySelector('.again');
             let myMessage = document.querySelector('.nah')
@@ -1059,6 +1059,7 @@
             let theBody = document.querySelector('.body');
             secretNumber = Math.trunc(Math.random() * 20) + 1;
             let score = 20;
+            let highestscore = 0;
 
             function scoreline() {
                 score = score - 4;
@@ -1103,11 +1104,14 @@
                     btn.style.display = 'none'
                     btnagain.style.display = 'inline-block';
                     document.querySelector('.mynumber').value = '';
-                    if (highestscore < score) {
-                        document.querySelector('#high').innerHTML = score;
+                    if (score > highestscore) {
+                        highestscore = score;
+                        document.querySelector('.highestscore').innerHTML = `Highest score: ${highestscore}`;
                     }
+
                 }
             }
+
 
             console.log(secretNumber)
             btn.addEventListener('click', myEngine);
