@@ -33,3 +33,100 @@ th,td{
     padding: 30px;
 }
 
+.oill{
+   display: flex;
+    justify-content: space-around
+    
+}
+
+.pop{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.oil{
+    display: flex;
+    justify-content: space-around;
+}
+
+  @media screen and (max-width:767px) {
+.main{
+    overflow-x: hidden;
+}
+    .oil{
+       display: grid;
+   justify-content: center;
+   align-items: center;
+    }
+
+  #vac{
+    font-size: 10px;
+  }
+
+  .oill{
+      display: grid;
+   justify-content: center;
+   align-items: center;
+}
+
+.pop{
+    
+     display: grid;
+   justify-content: center;
+   align-items: center;
+}
+
+#offcanvasNavbar{
+    width: 60%;
+}
+
+.alll{
+    display: none;
+}
+
+.orors{
+    margin-top: -20%;
+}
+.sss{
+    display: none;
+}
+  }
+
+   @media screen and (min-width:767px)and (max-width:1023px){
+      .oil{
+       display: grid;
+   justify-content: center;
+   align-items: center;
+    }
+
+    
+  .oill{
+      display: grid;
+   justify-content: center;
+   align-items: center;
+}
+
+.pop{
+    
+     display: grid;
+   justify-content: center;
+   align-items: center;
+}
+.alll i{
+    width: 5%;
+}
+.alll{
+    margin-top: -17%;
+}
+
+   }
+
+
+     @media screen and (min-width:1024px ){
+.ssss  {
+    margin-top: 5%;
+    padding-bottom: 4%;
+}
+   }
